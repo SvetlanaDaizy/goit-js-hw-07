@@ -19,6 +19,7 @@ const createListImg = galleryItems.map(({ preview, original, description }) => {
 
 galleryDiv.innerHTML = createListImg.join('');
 
+
 galleryDiv.addEventListener('click', onGalleryClick);
 
 const instance = basicLightbox.create(`<img src="" width="800" heiht="600">`);
